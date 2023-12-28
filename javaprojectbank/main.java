@@ -1,39 +1,3 @@
-/*import java.util.ArrayList;
-import java.util.List;
-
-public class main 
-{
-    public static void main(String[] args) {
-        teacher Hange=new teacher(1, "Hange", 1500);
-        teacher Erwin=new teacher(2, "Erwin", 1000);
-        teacher Levi=new teacher(3, "Levi", 1800);
-
-        List<teacher>teachersList=new ArrayList<>();
-        teachersList.add(Hange);
-        teachersList.add(Erwin);
-        teachersList.add(Levi);
-    
-
-        student eren=new student(1, "Eren",7);
-        student mikasa=new student(2, "Mikasa", 7);
-        student armin=new student(2, "armin", 7);
-        List<student>studentsList=new ArrayList<>();
-        studentsList.add(eren);
-        studentsList.add(mikasa);
-        studentsList.add(armin);
-        
-        school mgs=new school(teachersList,studentsList);
-        eren.payFees(3000);
-        mikasa.payFees(7000);
-        armin.payFees(9000);
-        System.out.println("mgs has earned Rs" + mgs.getTotalMoneyEarned());
-        System.out.println("mgs pay salary to teachers");
-        Hange.receiveSalary(Hange.getSalary());
-        System.out.println("mgs has spent for salary to"+ Hange.getName()+" and now has Rs"+ mgs.getTotalMoneyEarned() );
-
-    }
-    
-}*/
 
 
 import java.util.ArrayList;
